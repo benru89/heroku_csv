@@ -1,0 +1,337 @@
+[
+   {
+      "categoria": "Ordenadores",
+      "familias": [
+         {
+            "nombre": "Ordenadores",
+            "rangos": "[0:50,20:30,130:10,1000:5]",
+            "subfamilias": [
+               {
+                  "nombre": "Mini PC",
+                  "rangos": "[0:50,20:30,130:10,1000:5]"
+               },
+               {
+                  "nombre": "Pc Gaming",
+                  "rangos": "[0:10,20:50,100:4,1000:2]"
+               }
+            ]
+         },
+         {
+            "nombre": "Servidores",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Componentes",
+      "familias": [
+         {
+            "nombre": "Componentes",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Software",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Terminal Pto Venta TPV",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Portatiles",
+      "familias": [
+         {
+            "nombre": "Portatiles",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios de portatiles",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Smartphones",
+      "familias": [
+         {
+            "nombre": "Smartphones y moviles",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Telefonos fijos inalambrico",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios de smartphones",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Fundas y protectores",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Seguros para Smartphones",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "GPS",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Televisor",
+      "familias": [
+         {
+            "nombre": "Television",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Soportes para TV",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios TV",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Televisores por marca",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Impresoras",
+      "familias": [
+         {
+            "nombre": "Multifunciones  e impresoras",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Consumibles originales",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Toner original",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Consumibles reciclados",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Toner reciclado",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Escaners",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "CD/DVD",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Conectividad/Redes",
+      "familias": [
+         {
+            "nombre": "Conectividad",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Antenas",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Tarjetas",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Adaptadores USB",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Conectividad profesional",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Videovigilancia",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Domotica",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Consolas",
+      "familias": [
+         {
+            "nombre": "Perifericos Gaming",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Consolas",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios para consolas",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Juegos y accesorios",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Cables",
+      "familias": [
+         {
+            "nombre": "Cables",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Cables de Red",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Alargadores",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Adaptadores",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Perifericos",
+      "familias": [
+         {
+            "nombre": "Teclados",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Ratones",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Dispositivos Control de Presencia",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Monitores",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Altavoces",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Perifericos",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Auriculares",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Discos Duros Externos",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Tarjetas de memoria",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Pendrives",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Proyectores",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "S.A.I",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Tablets/Ebook",
+      "familias": [
+         {
+            "nombre": "Accesorios de Tablets",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Fundas para Tablets",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Tablets",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "E-Book",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Tablets por Marca",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Foto/Video",
+      "familias": [
+         {
+            "nombre": "Camaras",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   },
+   {
+      "categoria": "Apple",
+      "familias": [
+         {
+            "nombre": "Iphone",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Ipad",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "MacBook",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Imac",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Apple",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Fundas Apple",
+            "rangos": "[0:50,1000:5]"
+         },
+         {
+            "nombre": "Accesorios Apple",
+            "rangos": "[0:50,1000:5]"
+         }
+      ]
+   }
+]

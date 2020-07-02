@@ -1,2 +1,0 @@
-checkear yaml aqui despues de editar para comprobar que no hemos cometido errores:
-https://yamlchecker.com/

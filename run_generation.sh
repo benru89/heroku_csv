@@ -7,5 +7,7 @@ if [ -n "$1" ] || [ ! -f "$NETLIFY_BUILD_BASE/cache/images.csv" ]
     echo "$NETLIFY_BUILD_BASE"
     echo "$NETLIFY_CACHE_DIR"
     cp images.csv $NETLIFY_BUILD_BASE/cache/images.csv
+  else
+    cp $NETLIFY_BUILD_BASE/cache/images.csv images.csv
 fi
 python tratar_csv.py

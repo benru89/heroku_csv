@@ -644,3 +644,15 @@
           rangos: '[0:50,1000:5]'
         - nombre: Accesorios y Periféricos Apple
           rangos: '[0:50,1000:5]'
+- categoria: Foto / Video
+  familias:
+    - nombre: Cámaras
+      rangos: '[0:15]'
+      subfamilias:
+        - nombre: Camaras Digitales
+          rangos: '[0:15]'
+    - nombre: Accesorios para Cámaras
+      rangos: '[0:15]'
+      subfamilias:
+        - nombre: Accesorios de fotografia y video
+          rangos: '[0:15]'

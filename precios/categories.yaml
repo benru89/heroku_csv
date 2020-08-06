@@ -551,7 +551,7 @@
           rangos: '[0:50,1000:5]'
         - nombre: Soportes para PC & Monitor
           rangos: '[0:50,1000:5]'
-    - nombre: S.A.I
+    - nombre: S.A.I.
       rangos: '[0:50,1000:5]'
       subfamilias:
         - nombre: Accesorios SAIS

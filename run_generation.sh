@@ -16,9 +16,9 @@ fi
 echo "generate csv"
 if [ -n "$1" ] 
   then
-    python tratar_csv.py diff
+    python tratar_csv.py 
   else
-    python tratar_csv.py
+    python tratar_csv.py diff
 fi
 cp inventario.csv $NETLIFY_BUILD_BASE/cache/inventario_old.csv
 echo "success"

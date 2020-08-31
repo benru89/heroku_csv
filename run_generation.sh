@@ -14,7 +14,7 @@ if [ -n "$1" ] || [ ! -f "$NETLIFY_BUILD_BASE/cache/images.csv" ]
     cp $NETLIFY_BUILD_BASE/cache/images.csv images.csv
 fi
 echo "generate csv"
-if [ -n "$1" ]
+if [ -n "$1" ] then
   python tratar_csv.py diff
 else
   python tratar_csv.py

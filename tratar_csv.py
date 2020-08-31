@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import yaml
 import unidecode
+import sys
 
 
 with open('precios/categories.yaml', encoding='iso-8859-1') as f:
@@ -96,6 +97,22 @@ def placeAttributes(row):
 df = pd.read_csv("inventario.csv", encoding='iso-8859-1',
                  quotechar='"', quoting=1, sep=";", index_col=False)
 
+df = df[df['EAN13'] != 0]
+
+if len(sys.argv) > 1:
+
+    df_old = pd.read_csv("inventario_old.csv", encoding='iso-8859-1',
+                         quotechar='"', quoting=1, sep=";", index_col=False)
+
+    df_old = df_old[df_old['EAN13'] != 0]
+
+    df_merged = df.merge(df_old, on='EAN13', suffixes=(
+        '', '_y')).query('Cantidad != Cantidad_y')
+
+    df_merged = df_merged[df.columns]
+
+    df = df_merged
+
 
 df_images = pd.read_csv("images.csv", encoding='iso-8859-1',
                         quotechar='"', quoting=1, sep=";", usecols=range(0, 25))
@@ -132,5 +149,9 @@ for key in attrDict:
 
 df = df.apply(lambda row: placeAttributes(row), axis=1)
 
-df.to_csv('inventario_gen.csv',  quoting=1,
-          quotechar='"', sep=";", encoding='iso-8859-1', decimal=',', float_format='%.3f')
+if len(sys.argv) > 1:
+    df.to_csv('inventario_diff.csv',  quoting=1,
+              quotechar='"', sep=";", encoding='iso-8859-1', decimal=',', float_format='%.3f')
+else:
+    df.to_csv('inventario_gen.csv',  quoting=1,
+              quotechar='"', sep=";", encoding='iso-8859-1', decimal=',', float_format='%.3f')

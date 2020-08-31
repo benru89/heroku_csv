@@ -18,5 +18,6 @@ if [ -n "$1" ] then
   python tratar_csv.py diff
 else
   python tratar_csv.py
+fi
 cp inventario.csv $NETLIFY_BUILD_BASE/cache/inventario_old.csv
 echo "success"
